@@ -1,8 +1,0 @@
-{
-  "players": [
-    { "name": "Juan Martinez", "position": "GK",  "number": 1,  "hometown": "Cachagua", "photo": "assets/players/placeholder.jpg" },
-    { "name": "Leo Ramirez",   "position": "DEF", "number": 4,  "hometown": "Carmel Valley", "photo": "assets/players/placeholder.jpg" },
-    { "name": "Diego Solis",   "position": "MID", "number": 8,  "hometown": "Cachagua", "photo": "assets/players/placeholder.jpg" },
-    { "name": "Marco Reyes",   "position": "FWD", "number": 9,  "hometown": "Monterey", "photo": "assets/players/placeholder.jpg" }
-  ]
-}
