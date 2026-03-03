@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cachagua Fire FC</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img class="brand__logo" src="assets/logo.png" alt="Cachagua Fire logo" />
+      <div class="brand__text">
+        <div class="brand__name">Cachagua Fire</div>
+        <div class="brand__tag">Football Club</div>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a class="nav__link nav__link--active" href="index.html">Home</a>
+      <a class="nav__link" href="roster.html">Roster</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="--hero-image:url('assets/hero.jpg')">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <div class="eyebrow">Cachagua Fire FC</div>
+        <h1 class="headline">Built in Cachagua. Played everywhere.</h1>
+        <p class="subhead">Match updates, roster, and game info — all in one place.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#next-game">Next Game</a>
+          <a class="btn btn--ghost" href="roster.html">View Roster</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="next-game">
+      <div class="section__header">
+        <h2>Upcoming Game</h2>
+        <p class="muted">Quick details for the next match.</p>
+      </div>
+
+      <div class="card card--game" id="nextGameCard" aria-live="polite">
+        <div class="card__left">
+          <div class="pill" id="gameStatus">Loading…</div>
+          <div class="matchup" id="matchup">—</div>
+          <div class="meta" id="meta">—</div>
+        </div>
+
+        <div class="card__right">
+          <div class="infoRow">
+            <div class="infoRow__label">When</div>
+            <div class="infoRow__value" id="when">—</div>
+          </div>
+          <div class="infoRow">
+            <div class="infoRow__label">Where</div>
+            <div class="infoRow__value" id="where">—</div>
+          </div>
+          <div class="infoRow">
+            <div class="infoRow__label">Address</div>
+            <div class="infoRow__value" id="address">—</div>
+          </div>
+
+          <div class="card__actions">
+            <a class="btn btn--secondary" id="mapLink" target="_blank" rel="noreferrer">Open Map</a>
+            <a class="btn btn--ghost" href="roster.html">Roster</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section section--grid">
+      <div class="panel">
+        <h3>Team Culture</h3>
+        <p class="muted">
+          Premium, clean football with a small-town core. Train hard, play smart, represent Cachagua.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Updates</h3>
+        <p class="muted">
+          Later we can add a simple “News” section you update the same way as roster/game.
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Contact</h3>
+        <p class="muted">
+          Want a contact button? We can wire it to email or an Instagram link.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="muted">© <span id="year"></span> Cachagua Fire FC</div>
+      <div class="muted">Made for the squad.</div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

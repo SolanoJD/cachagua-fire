@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Roster — Cachagua Fire FC</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img class="brand__logo" src="assets/logo.png" alt="Cachagua Fire logo" />
+      <div class="brand__text">
+        <div class="brand__name">Cachagua Fire</div>
+        <div class="brand__tag">Football Club</div>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link nav__link--active" href="roster.html">Roster</a>
+    </nav>
+  </header>
+
+  <main class="container section">
+    <div class="section__header">
+      <h1>Team Roster</h1>
+      <p class="muted">Update players in <code>data/roster.json</code>.</p>
+    </div>
+
+    <div class="toolbar">
+      <label class="selectWrap">
+        <span class="muted">Filter:</span>
+        <select id="positionFilter">
+          <option value="ALL">All</option>
+          <option value="GK">Goalkeepers</option>
+          <option value="DEF">Defenders</option>
+          <option value="MID">Midfielders</option>
+          <option value="FWD">Forwards</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="rosterGrid" id="rosterGrid" aria-live="polite"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="muted">© <span id="year"></span> Cachagua Fire FC</div>
+      <div class="muted">Cachagua, CA</div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
