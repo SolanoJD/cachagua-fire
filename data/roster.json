@@ -1,8 +1,8 @@
 {
   "players": [
-    { "name": "Yunuen Solano", "position": "Manager",  "number": 0,  "hometown": "Cachagua", "photo": "assets/players/placeholder.jpg" },
+    { "name": "Yunuen Solano", "position": "Manager",  "number": 0,  "hometown": "Cachagua", "photo": "assets/players/CachaFireMANAGER.jpg" },
     { "name": "Tavo Jimenez",   "position": "FWD", "number": 4,  "hometown": "El Tepetate", "photo": "assets/players/placeholder.jpg" },
     { "name": "Chicho Jimenez",   "position": "MID", "number": 8,  "hometown": "El Tepetate", "photo": "assets/players/placeholder.jpg" },
-    { "name": "Johnny Salinas",   "position": "DEF", "number": 9,  "hometown": "New York", "photo": "assets/players/placeholder.jpg" }
+    { "name": "Johnny Rincon",   "position": "DEF", "number": 9,  "hometown": "New York", "photo": "assets/players/placeholder.jpg" }
   ]
 }
